@@ -269,6 +269,7 @@ class FirstScreen extends StatelessWidget {
           type: BottomNavigationBarType.fixed,
           backgroundColor: const Color(0xff0D031B),
           showUnselectedLabels: true,
+          unselectedItemColor: Colors.white,
           items: const [
             BottomNavigationBarItem(
                 icon: Icon(Icons.home_filled, color: Colors.white),

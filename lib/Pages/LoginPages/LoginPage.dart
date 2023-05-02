@@ -46,23 +46,21 @@ class _LoginPageState extends State<LoginPage> {
               padding: const EdgeInsets.symmetric(horizontal: 60),
               child: Column(
                   crossAxisAlignment: CrossAxisAlignment.center,
-                  // ignore: prefer_const_literals_to_create_immutables
                   children: [
                     Row(
                       mainAxisAlignment: MainAxisAlignment.center,
-                      // ignore: prefer_const_literals_to_create_immutables
-                      children: [
-                        const SizedBox(
+                      children: const [
+                        SizedBox(
                           height: 45,
                         ),
-                        const CircleAvatar(
+                        CircleAvatar(
                           backgroundColor: Colors.white,
                           radius: 5,
                         ),
-                        const SizedBox(
+                        SizedBox(
                           width: 13,
                         ),
-                        const CircleAvatar(
+                        CircleAvatar(
                           backgroundColor: Color(0xffC4C4C4),
                           radius: 5,
                         )
@@ -73,9 +71,8 @@ class _LoginPageState extends State<LoginPage> {
                     ),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.center,
-                      // ignore: prefer_const_literals_to_create_immutables
-                      children: [
-                        const Text(
+                      children: const [
+                        Text(
                           "Login",
                           style: TextStyle(
                               color: Colors.white,
